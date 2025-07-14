@@ -31,3 +31,58 @@ header h1 {
 header p {
     font-size: 1.4rem;
 }
+
+.formulario {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px #85929e;
+    width: 100%;
+    max-width: 500px;
+    margin: 2rem 1rem;
+}
+
+.formulario h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #424949;
+    font-size: 1.5rem;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+    color: #424949;
+    font-weight: bold
+}
+
+input, select {
+    width: 100%;
+    padding: 0.8rem;
+    border: 2px solid #424949;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-family: Arapey, sans-serif;
+}
+
+option {
+    font-family: Arapey, sans-serif;
+}
+
+button {
+    background-color: #424949;
+    color: #ffffff;
+    font-family: Arapey, sans-serif;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: block;
+    margin: 1rem auto;
+}
+
+button:hover {
+    background-color: #1b2631;
+}
